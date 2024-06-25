@@ -1,2 +1,4 @@
 class User < ActiveRecord::Base
-end
+    has_many :quiz_tests
+  end
+  
